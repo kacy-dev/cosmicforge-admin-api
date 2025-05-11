@@ -9,10 +9,7 @@ const adminRoute = require("./routes/adminRoute");
 const app = express();
 
 const allowedOrigins = [
-  "http://localhost:3002",
-  "http://192.168.0.199:3000",
-  "http://localhost:5173", // Match frontend IP
-  "http://172.20.10.3:5173" // Match frontend IP
+  "http://127.0.0.1:5500"
 ];
 
 // Middleware
