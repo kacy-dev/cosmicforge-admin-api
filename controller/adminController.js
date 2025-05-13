@@ -108,7 +108,6 @@ const verifyOTP = async (req, res) => {
 
 const loginAdmin = async (req, res) => {
     const { email, password } = req.body;
-    console.log(req.body);
 
     try {
 
